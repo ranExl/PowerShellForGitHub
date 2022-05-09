@@ -3237,7 +3237,7 @@ filter Set-GitHubRepositoryTeamPermission
         [string] $TeamSlug,
 
         [Parameter()]
-        [ValidateSet('Pull', 'Push', 'Admin', 'Maintain', 'Triage')]
+        [ValidateSet('Pull', 'Push', 'Admin', 'Maintain', 'Triage', 'exl-adm')]
         [string]$Permission,
 
         [string] $AccessToken
